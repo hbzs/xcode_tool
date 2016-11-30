@@ -3,21 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>prostr</string>
+	<string>prodelegate</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (strong, nonatomic) &lt;#type#&gt; *&lt;#name#&gt;;</string>
+	<string>@property (nonatomic, weak) id&lt;&lt;#delegatename#&gt;Delegate&gt; &lt;#delegatename#&gt;Delegate;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A83AE4CD-E79A-464F-B849-29BEB3CF4B01</string>
+	<string>AA95864E-E207-44BC-AECA-1C5ACD721D54</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>strong type property</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>tq strong type property</string>
+	<string>HBZ delegate type property</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

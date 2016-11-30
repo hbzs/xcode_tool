@@ -3,21 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>prostr</string>
+	<string>wsself</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (strong, nonatomic) &lt;#type#&gt; *&lt;#name#&gt;;</string>
+	<string>__weak __typeof(self) wSelf = self;
+__strong __typeof(wSelf) sSelf = wSelf;
+if (sSelf) {
+  &lt;#sSelf#&gt;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A83AE4CD-E79A-464F-B849-29BEB3CF4B01</string>
+	<string>528436D9-C2B9-42BA-BC1F-0925F8459D69</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>strong type property</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>tq strong type property</string>
+	<string>HBZ block self</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
